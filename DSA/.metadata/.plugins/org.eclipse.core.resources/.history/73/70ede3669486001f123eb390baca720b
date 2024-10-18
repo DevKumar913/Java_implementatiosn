@@ -1,0 +1,51 @@
+package com.kumar.Arrays_Medium;
+
+public class NextPermutation {
+	
+	public int[] nextPermutation(int[] nums) {
+		int index=-1;
+		for(int i=nums.length-1;i>=0;i--) {
+			if(nums[i-1]<nums[i]) {
+				index=i;
+				break;
+			}
+			
+			if(index==-1) {
+				reverese(nums);
+			}
+		}
+		
+	}
+	
+	public int[] reverse(int[] arr, int start, int end) {
+		int l=start;
+		int r=end;
+		while(l<r) {
+			swap(arr[l],arr[r]);
+		}
+		return arr;
+	}
+	
+	
+	public int[] reverse(int[] arr) {
+		int l=0;
+		int r=arr.length-1;
+		while(l<r) {
+			swap(arr[l],arr[r]);
+		}
+		return arr;
+	}
+	
+	public void swap(int a , int b){
+		int temp=a;
+		a=b;
+		b=temp;
+	}
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

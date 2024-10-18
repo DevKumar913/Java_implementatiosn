@@ -1,0 +1,10 @@
+package com.kumar.Arrays_Medium;
+
+public class LongestConsecutive_BruteForce {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

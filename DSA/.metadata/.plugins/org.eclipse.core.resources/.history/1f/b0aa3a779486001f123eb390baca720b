@@ -1,0 +1,64 @@
+package com.kumar.Arrays_Medium;
+
+public class NextPermutation {
+	
+	public int[] nextPermutation(int[] nums) {
+		int index=-1;
+		for(int i=nums.length-1;i>=0;i--) {
+			if(nums[i-1]<nums[i]) {
+				index=i;
+				break;
+			}
+		}
+			
+			if(index==-1) {
+				return reverse(nums);
+			}
+			
+			for(int i=nums.length-1;i>=index;i--) {
+				if(nums[i]>nums[index]) {
+					swap(nums[i],nums[index]);
+					break;
+				}
+			}
+			
+			reverse(nums,index+1,nums.length-1);
+			return nums;
+			
+		
+		
+	}
+	
+	public int[] reverse(int[] arr, int start, int end) {
+		int l=start;
+		int r=end;
+		while(l<r) {
+			swap(arr[l],arr[r]);
+		}
+		return arr;
+	}
+	
+	
+	public int[] reverse(int[] arr) {
+		int l=0;
+		int r=arr.length-1;
+		while(l<r) {
+			swap(arr[l],arr[r]);
+		}
+		return arr;
+	}
+	
+	public void swap(int a , int b){
+		int temp=a;
+		a=b;
+		b=temp;
+	}
+	
+
+	public static void main(String[] args) {
+		NextPermutation obj = new NextPermutation();
+		System.out.println(obj.nextPermutation(new int[] {1,2,3}));
+
+	}
+
+}

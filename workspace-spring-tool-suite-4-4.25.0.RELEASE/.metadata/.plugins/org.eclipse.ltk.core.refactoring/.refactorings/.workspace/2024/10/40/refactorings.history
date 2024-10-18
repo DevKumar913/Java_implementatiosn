@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;javaPractice_Functinal_Interface&apos; to &apos;javaPractice_Java8_Features&apos;" description="Rename resource &apos;javaPractice_Functinal_Interface&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/javaPractice_Functinal_Interface" name="javaPractice_Java8_Features" stamp="1728074820456" updateReferences="true"/>
+</session>

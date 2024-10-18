@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;DataStructures&apos;&#x0A;- Original project: &apos;DataStructures&apos;&#x0A;- Original element: &apos;DataStructures/src/com.kumar.Sortings.Arrays&apos;" description="Delete element" element1="/src&lt;com.kumar.Sortings.Arrays" element2="/src&lt;com.kumar.Sortings" element3="/src&lt;com.kumar" element4="/src&lt;com" elements="4" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1727902554463" subPackages="false" version="1.0"/>
+</session>

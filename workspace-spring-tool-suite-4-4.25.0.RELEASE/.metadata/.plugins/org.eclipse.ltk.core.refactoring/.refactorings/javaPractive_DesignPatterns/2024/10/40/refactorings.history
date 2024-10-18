@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;Singelton.java&apos; to &apos;javaPractive_DesignPatterns/src/com.kumar.singleton_Design_Patterns&apos;&#x0A;- Original project: &apos;javaPractive_DesignPatterns&apos;&#x0A;- Destination element: &apos;javaPractive_DesignPatterns/src/com.kumar.singleton_Design_Patterns&apos;&#x0A;- Original element: &apos;com.kumar.designpatters_factory.Singelton.java&apos;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;com.kumar.singleton_Design_Patterns" element1="/src&lt;com.kumar.designpatters_factory{Singelton.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1728008790764" units="1" version="1.0"/>
+</session>

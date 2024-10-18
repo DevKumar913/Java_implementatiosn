@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.kumar.inheritance.ass.Multilevel.java&apos; to &apos;MobilePhoneMultilevel.java&apos;&#x0A;- Original project: &apos;javaPractive_Ass_Inheritance&apos;&#x0A;- Original element: &apos;com.kumar.inheritance.ass.Multilevel.java&apos;&#x0A;- Renamed element: &apos;com.kumar.inheritance.ass.MobilePhoneMultilevel.java&apos;" description="Rename compilation unit &apos;Multilevel.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;com.kumar.inheritance.ass{Multilevel.java" name="MobilePhoneMultilevel.java" references="false" stamp="1726247763198" version="1.0"/>
+</session>

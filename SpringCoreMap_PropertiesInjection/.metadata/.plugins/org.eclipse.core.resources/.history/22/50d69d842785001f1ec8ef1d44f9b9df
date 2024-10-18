@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">  
+	<bean id="company3" class="com.kumar.module.Company">
+		<property name="deptCount">
+			<map key-type="java.lang.String" value-type="java.lang.Integer">
+				<entry key="HR" value="200"></entry>
+				<entry key="Sales" value ="500"></entry>
+				<entry key="tech" value ="350"></entry>
+				<entry key =" Marketing" value="30"></entry>
+			</map>
+		</property>
+	</bean>
+</beans>
+
